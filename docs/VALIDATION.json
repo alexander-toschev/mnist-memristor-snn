@@ -1,0 +1,73 @@
+{
+  "date": "2026-11-08",
+  "environment": {
+    "python": "3.11.9",
+    "packages": {
+      "numpy": "2.0.2",
+      "torch": "2.4.1+cu124",
+      "torchvision": "0.19.1+cu124",
+      "bindsnet": "0.3.3",
+      "SQLAlchemy": "2.0.36"
+    },
+    "memriboard_distributions": {
+      "memriboard-connector-local": "0.0.0+135504d5dd8c"
+    },
+    "memriboard_public_sha256": {
+      "manager/board.py": "5e7076651001532e409287f1cd7d17a95ba26d3d382c44e1865de56e45477df0",
+      "manager/service/converters.py": "28c6495c56afa225501dd6b0dea999215f08b73f30e016ff7ea34d6c5412701c",
+      "simulator/src.py": "d41edc5c0464e15d44a23a1bb628e8025194e518d914635c1a14dd46ea2d4cc2",
+      "simulator/memristor.py": "bb9c43d0f254c512c21902a64b5414e05f63f1deecf10016e5b97bd086050aca",
+      "simulator/simulator_settings.ini": "9ef3229595cbbba0ccc7d7450981d7a63266092792f4573d405beb2f364d3ddb"
+    },
+    "board_ini_sha256": "01106c85f52b625b15d6fd08b68df07a133d5810c609a4f9cb9ab24abe01877c",
+    "hardware_opened": false
+  },
+  "unit_tests_passed": 3,
+  "hardware_prefix": {
+    "session": "d75cde41-5374-4109-a67a-2ee1d76e8839",
+    "reference": "d51aa091-91f8-4089-8767-1d91b82a9c14",
+    "images": 16,
+    "counts_exact": true,
+    "predictions_exact": true,
+    "logits_rtol": 1e-06,
+    "logits_atol": 1e-06,
+    "hardware_calls": 0
+  },
+  "simulator_prefix": {
+    "session": "f041536f-4e03-4e77-9427-ea572704aa45",
+    "reference": "7c99d7c6-f345-4fea-a36f-e00eefd307b7",
+    "images": 16,
+    "counts_exact": true,
+    "predictions_exact": true,
+    "logits_rtol": 1e-06,
+    "logits_atol": 1e-06,
+    "hardware_calls": 0
+  },
+  "native_simulator_pilot": {
+    "accuracy": null,
+    "completed_loads": 1,
+    "elapsed_seconds": 9.780999999959022,
+    "error": null,
+    "impacts": 5020,
+    "inference": "measured frozen partial MVM LUT + digital sum + CPU LIF + frozen CPU head",
+    "logical_coefficients": 1600,
+    "physical_cells": 24,
+    "pilot": true,
+    "planned_loads": 1,
+    "programmed_cell_loads": 24,
+    "programming_errors_replaced_by_ideal_weights": false,
+    "pulses": 316,
+    "read_only_parent": null,
+    "retried_loads": 0,
+    "scope": "pilot",
+    "session_id": "c7708c70-ccdf-493d-bcfd-602a03220692",
+    "source": "simulator",
+    "status": "completed",
+    "target_misses": 0,
+    "target_tolerance_s": 2.560355420368765e-06,
+    "unresolved_binary_patterns": 14,
+    "unresolved_does_not_mean_informative": true
+  },
+  "full_10000_recomputed": false,
+  "physical_board_used": false
+}

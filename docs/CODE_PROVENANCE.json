@@ -1,0 +1,32 @@
+{
+  "source_repository": "https://github.com/alexander-toschev/snn-memristor-hardware",
+  "source_commit": "6f31f2421f43a9fbac3fb70c96328e4fe4b37e86",
+  "upstream_file_sha256": {
+    "tools/restore_terminal_session.py": "49631b8546aa62c3c1f6933ab83fa4880b9ec7966754b0feda486735aa1c6290",
+    "experiment_common/selective_metrology.py": "df24f64dbf62c13c25d96050f69d59315402576dc086d329bc850577f246b205",
+    "experiment_common/native_output.py": "b8ceb4b49a4bc448ca4f86f83b0884044e5046b4a406632f089d9bbad914e505",
+    "experiment_common/durable.py": "6bf3674e5774348dcf2e37de660e95a5077ddf055db18c3643a69121fd60b8c8",
+    "experiments/mnist_tiled_transfer_20261022/experiment.py": "a4e7ca6932dec3eb428f8bdccf7de2d61ba86919041457dd70909390a1a579cb",
+    "experiment_common/readout.py": "89fa27eaa90ea673b57a78ec0b17c6cf2cca6c00ebfb80406e041e163ff66da0",
+    "experiment_common/mnist_inputs.py": "b005e9517b07f3ca0b030b5d8a043af925414310efa5b75a2bcaadb900288299",
+    "experiment_common/poisson.py": "6eae8ace589ab0b58042cb2026abe54f281e7f483792e73a75cbcff923544767",
+    "experiment_common/mnist_data.py": "39c6d580dd12c20952e2e5fb457e25bac19d8ff63a8d5d8f3959f6d3b44fb779",
+    "experiment_common/schema.py": "959370a89dd8e7661a2a4fb4e29958f2a1990687324af180ccc190ae8cb38a34",
+    "experiment_common/lif.py": "24a7f14423d6f35e828110599379d94c615b91e4136dd3318bf86fcceaeebcbc",
+    "experiment_common/tiled_transfer.py": "081017573eb956bdfa8101fa1f13f43db8083dc8567d614b093524f5925eacb4",
+    "experiment_common/adaptive_programming.py": "7f240b68c42fcb1ba758299ab2aa75bf3518a6cbe528c217eb554efffa3fa442",
+    "experiment_common/native_memriboard.py": "63913e03f3460e4c9283e291d9df0ea5a0df439f757ece3467920b7ce966cc7f",
+    "experiment_common/exact_cache.py": "26854678a7dcafb7468d10cd53c182c8a00b7ba93d59d422690ff533b66651dc",
+    "experiment_common/stdp_collector.py": "d3fe6ba9cba3d35e46475e48c41efa8ece05b93ae80fdf9c895b08d5cdaa0dd7",
+    "experiment_common/block_readout_validation.py": "8722ea08ee2bb82d20017c584b865c9ec93597a0e01cc27728da98b59853c93a"
+  },
+  "adaptations": [
+    "Normal installed MemriBoard imports; no vendor path injection",
+    "Fixed published qualified24 map and settled readout defaults",
+    "Removed repository-specific automatic publication options",
+    "MNIST stored under data/MNIST/raw; archives restored from companion archives/",
+    "Numerical acquisition, converters, encoding, LIF and frozen classifier algorithms preserved",
+    "Explicit CPU-only 16-image smoke mode; full replay remains 10000 images"
+  ],
+  "source_line_endings": "Public pinned source and local export source compared after CRLF/LF normalization; original local byte hashes retained."
+}
