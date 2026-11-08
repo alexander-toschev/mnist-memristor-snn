@@ -1,0 +1,880 @@
+{
+  "acquisition_session": "4d2dfee0-3106-40de-9ad8-3d8542bef989",
+  "exact_request_counts": {
+    "read_R_mode7": 227572,
+    "SET_mode7": 19810,
+    "RESET_mode7": 13236,
+    "MVM_mode10": 362880
+  },
+  "command_examples": {
+    "read_R_mode7": {
+      "bl": 13,
+      "id": 1,
+      "mode_flag": 7,
+      "pulse_width": 0.0,
+      "sign": 0,
+      "vol": 0.0,
+      "wl": 0
+    },
+    "SET_mode7": {
+      "bl": 13,
+      "id": 5,
+      "mode_flag": 7,
+      "pulse_width": 1e-05,
+      "sign": 1,
+      "vol": 1.0,
+      "wl": 0
+    },
+    "RESET_mode7": {
+      "bl": 13,
+      "id": 100,
+      "mode_flag": 7,
+      "pulse_width": 1e-05,
+      "sign": 0,
+      "vol": 1.0,
+      "wl": 3
+    },
+    "MVM_mode10": {
+      "id": 0,
+      "mode_flag": 10,
+      "vol": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "wl": 0
+    }
+  },
+  "cell_programming_statistics": [
+    {
+      "wl": 0,
+      "bl": 13,
+      "writes": 134,
+      "misses": 53,
+      "stop_counts": {
+        "confirmed": 72,
+        "no_response_at_maximum": 62
+      },
+      "max_abs_error_us": 52.528336706010904
+    },
+    {
+      "wl": 3,
+      "bl": 13,
+      "writes": 134,
+      "misses": 55,
+      "stop_counts": {
+        "confirmed": 73,
+        "no_response_at_maximum": 61
+      },
+      "max_abs_error_us": 4.461518998099182
+    },
+    {
+      "wl": 0,
+      "bl": 11,
+      "writes": 134,
+      "misses": 43,
+      "stop_counts": {
+        "confirmed": 84,
+        "no_response_at_maximum": 50
+      },
+      "max_abs_error_us": 43.405928732501394
+    },
+    {
+      "wl": 4,
+      "bl": 11,
+      "writes": 134,
+      "misses": 0,
+      "stop_counts": {
+        "confirmed": 134
+      },
+      "max_abs_error_us": 2.298683480519893
+    },
+    {
+      "wl": 1,
+      "bl": 10,
+      "writes": 134,
+      "misses": 24,
+      "stop_counts": {
+        "confirmed": 107,
+        "no_response_at_maximum": 27
+      },
+      "max_abs_error_us": 98.79493601327721
+    },
+    {
+      "wl": 3,
+      "bl": 10,
+      "writes": 134,
+      "misses": 39,
+      "stop_counts": {
+        "confirmed": 93,
+        "no_response_at_maximum": 41
+      },
+      "max_abs_error_us": 39.96895352329328
+    },
+    {
+      "wl": 1,
+      "bl": 14,
+      "writes": 134,
+      "misses": 118,
+      "stop_counts": {
+        "confirmed": 14,
+        "no_response_at_maximum": 120
+      },
+      "max_abs_error_us": 114.87508432211361
+    },
+    {
+      "wl": 4,
+      "bl": 14,
+      "writes": 134,
+      "misses": 0,
+      "stop_counts": {
+        "confirmed": 134
+      },
+      "max_abs_error_us": 1.4742171419001433
+    },
+    {
+      "wl": 1,
+      "bl": 7,
+      "writes": 133,
+      "misses": 32,
+      "stop_counts": {
+        "confirmed": 101,
+        "no_response_at_maximum": 32
+      },
+      "max_abs_error_us": 54.38284930787607
+    },
+    {
+      "wl": 5,
+      "bl": 7,
+      "writes": 133,
+      "misses": 54,
+      "stop_counts": {
+        "no_response_at_maximum": 62,
+        "confirmed": 71
+      },
+      "max_abs_error_us": 54.711277890251374
+    },
+    {
+      "wl": 3,
+      "bl": 2,
+      "writes": 133,
+      "misses": 55,
+      "stop_counts": {
+        "confirmed": 72,
+        "no_response_at_maximum": 61
+      },
+      "max_abs_error_us": 85.92020319448461
+    },
+    {
+      "wl": 4,
+      "bl": 2,
+      "writes": 133,
+      "misses": 0,
+      "stop_counts": {
+        "confirmed": 133
+      },
+      "max_abs_error_us": 1.9501572582934978
+    },
+    {
+      "wl": 3,
+      "bl": 3,
+      "writes": 133,
+      "misses": 57,
+      "stop_counts": {
+        "confirmed": 69,
+        "no_response_at_maximum": 64
+      },
+      "max_abs_error_us": 49.162679281413105
+    },
+    {
+      "wl": 4,
+      "bl": 3,
+      "writes": 133,
+      "misses": 0,
+      "stop_counts": {
+        "confirmed": 133
+      },
+      "max_abs_error_us": 1.5660156363937316
+    },
+    {
+      "wl": 4,
+      "bl": 10,
+      "writes": 133,
+      "misses": 5,
+      "stop_counts": {
+        "confirmed": 128,
+        "no_response_at_maximum": 5
+      },
+      "max_abs_error_us": 30.17027483333997
+    },
+    {
+      "wl": 5,
+      "bl": 10,
+      "writes": 133,
+      "misses": 55,
+      "stop_counts": {
+        "no_response_at_maximum": 64,
+        "confirmed": 69
+      },
+      "max_abs_error_us": 13.416936674289158
+    },
+    {
+      "wl": 4,
+      "bl": 13,
+      "writes": 133,
+      "misses": 27,
+      "stop_counts": {
+        "confirmed": 104,
+        "no_response_at_maximum": 29
+      },
+      "max_abs_error_us": 53.09131902992857
+    },
+    {
+      "wl": 6,
+      "bl": 13,
+      "writes": 133,
+      "misses": 0,
+      "stop_counts": {
+        "confirmed": 133
+      },
+      "max_abs_error_us": 1.8047378327014694
+    },
+    {
+      "wl": 5,
+      "bl": 3,
+      "writes": 133,
+      "misses": 57,
+      "stop_counts": {
+        "confirmed": 72,
+        "no_response_at_maximum": 61
+      },
+      "max_abs_error_us": 85.10845667356284
+    },
+    {
+      "wl": 6,
+      "bl": 3,
+      "writes": 133,
+      "misses": 1,
+      "stop_counts": {
+        "confirmed": 132,
+        "no_response_at_maximum": 1
+      },
+      "max_abs_error_us": 56.40778948007469
+    },
+    {
+      "wl": 5,
+      "bl": 5,
+      "writes": 133,
+      "misses": 65,
+      "stop_counts": {
+        "no_response_at_maximum": 71,
+        "confirmed": 62
+      },
+      "max_abs_error_us": 59.44516310315453
+    },
+    {
+      "wl": 6,
+      "bl": 5,
+      "writes": 133,
+      "misses": 0,
+      "stop_counts": {
+        "confirmed": 133
+      },
+      "max_abs_error_us": 1.7758898069341307
+    },
+    {
+      "wl": 6,
+      "bl": 10,
+      "writes": 133,
+      "misses": 31,
+      "stop_counts": {
+        "no_response_at_maximum": 32,
+        "confirmed": 101
+      },
+      "max_abs_error_us": 75.17605374618664
+    },
+    {
+      "wl": 7,
+      "bl": 10,
+      "writes": 133,
+      "misses": 57,
+      "stop_counts": {
+        "confirmed": 74,
+        "no_response_at_maximum": 59
+      },
+      "max_abs_error_us": 5.831771724560604
+    }
+  ],
+  "selection_conductance_errors": [
+    {
+      "session": "e39b8972-8199-4bbb-9a4c-7b95b21bd24d",
+      "path": "e39b8972-8199-4bbb-9a4c-7b95b21bd24d/load_000_programming.json",
+      "attempts": 64,
+      "bl": 8,
+      "confirmed": false,
+      "error_g_s": -2.7404433409484392e-05,
+      "final_confirm_g_s": [
+        5.1193705231402264e-05,
+        5.112528316383383e-05
+      ],
+      "final_g_s": 5.1385417512238686e-05,
+      "initial_g_s": 0.00040621132946192044,
+      "last_g_s": 5.112528316383383e-05,
+      "reversals": 17,
+      "stop": "attempt_limit",
+      "target_g_s": 7.878985092172308e-05,
+      "within_tolerance": false,
+      "wl": 0
+    },
+    {
+      "session": "e39b8972-8199-4bbb-9a4c-7b95b21bd24d",
+      "path": "e39b8972-8199-4bbb-9a4c-7b95b21bd24d/load_000_programming.json",
+      "attempts": 31,
+      "bl": 8,
+      "confirmed": true,
+      "error_g_s": 6.957631742945985e-05,
+      "final_confirm_g_s": [
+        8.115776272686591e-06,
+        8.22364131653439e-06
+      ],
+      "final_g_s": 7.954609703352401e-05,
+      "initial_g_s": 0.00019610138085842866,
+      "last_g_s": 8.22364131653439e-06,
+      "reversals": 14,
+      "stop": "confirmed",
+      "target_g_s": 9.969779604064162e-06,
+      "within_tolerance": false,
+      "wl": 3
+    },
+    {
+      "session": "e39b8972-8199-4bbb-9a4c-7b95b21bd24d",
+      "path": "e39b8972-8199-4bbb-9a4c-7b95b21bd24d/load_000_programming.json",
+      "attempts": 14,
+      "bl": 15,
+      "confirmed": false,
+      "error_g_s": 0.0002557770569979451,
+      "final_confirm_g_s": [
+        0.00026548064223604664,
+        0.00026551378027949845
+      ],
+      "final_g_s": 0.00026574683660200927,
+      "initial_g_s": 0.0002655473883944207,
+      "last_g_s": 0.00026551378027949845,
+      "reversals": 0,
+      "stop": "no_response_at_maximum",
+      "target_g_s": 9.969779604064162e-06,
+      "within_tolerance": false,
+      "wl": 1
+    },
+    {
+      "session": "e39b8972-8199-4bbb-9a4c-7b95b21bd24d",
+      "path": "e39b8972-8199-4bbb-9a4c-7b95b21bd24d/load_000_programming.json",
+      "attempts": 14,
+      "bl": 0,
+      "confirmed": true,
+      "error_g_s": 2.7321936233720427e-05,
+      "final_confirm_g_s": [
+        1.2186091562215983e-05,
+        1.2186091562215983e-05
+      ],
+      "final_g_s": 3.729171583778459e-05,
+      "initial_g_s": 1.2175055264283842e-05,
+      "last_g_s": 1.2186091562215983e-05,
+      "reversals": 0,
+      "stop": "no_response_at_maximum",
+      "target_g_s": 9.969779604064162e-06,
+      "within_tolerance": false,
+      "wl": 5
+    },
+    {
+      "session": "e39b8972-8199-4bbb-9a4c-7b95b21bd24d",
+      "path": "e39b8972-8199-4bbb-9a4c-7b95b21bd24d/load_000_programming.json",
+      "attempts": 15,
+      "bl": 1,
+      "confirmed": true,
+      "error_g_s": 2.862822879095739e-06,
+      "final_confirm_g_s": [
+        1.2883205139737859e-05,
+        1.2894290998753723e-05
+      ],
+      "final_g_s": 1.3783645929109067e-05,
+      "initial_g_s": 1.3482979965326764e-05,
+      "last_g_s": 1.2894290998753723e-05,
+      "reversals": 0,
+      "stop": "no_response_at_maximum",
+      "target_g_s": 1.0920823050013328e-05,
+      "within_tolerance": false,
+      "wl": 5
+    },
+    {
+      "session": "e39b8972-8199-4bbb-9a4c-7b95b21bd24d",
+      "path": "e39b8972-8199-4bbb-9a4c-7b95b21bd24d/load_000_programming.json",
+      "attempts": 14,
+      "bl": 15,
+      "confirmed": true,
+      "error_g_s": 3.1575237523707434e-06,
+      "final_confirm_g_s": [
+        1.2318657640254622e-05,
+        1.2329709315406477e-05
+      ],
+      "final_g_s": 1.3127303356434905e-05,
+      "initial_g_s": 1.2606235426601688e-05,
+      "last_g_s": 1.2329709315406477e-05,
+      "reversals": 0,
+      "stop": "no_response_at_maximum",
+      "target_g_s": 9.969779604064162e-06,
+      "within_tolerance": false,
+      "wl": 5
+    },
+    {
+      "session": "e39b8972-8199-4bbb-9a4c-7b95b21bd24d",
+      "path": "e39b8972-8199-4bbb-9a4c-7b95b21bd24d/load_000_programming.json",
+      "attempts": 33,
+      "bl": 14,
+      "confirmed": false,
+      "error_g_s": -1.9767483678768528e-05,
+      "final_confirm_g_s": [
+        5.352065801866483e-05,
+        5.3451418246347787e-05
+      ],
+      "final_g_s": 5.343756512703751e-05,
+      "initial_g_s": 1.3393991641861789e-05,
+      "last_g_s": 5.3451418246347787e-05,
+      "reversals": 0,
+      "stop": "no_response_at_maximum",
+      "target_g_s": 7.320504880580604e-05,
+      "within_tolerance": false,
+      "wl": 5
+    },
+    {
+      "session": "aa6c49fc-42b3-4f38-bb7c-8609c73452d5",
+      "path": "aa6c49fc-42b3-4f38-bb7c-8609c73452d5/load_000_programming.json",
+      "attempts": 64,
+      "bl": 8,
+      "confirmed": false,
+      "error_g_s": -2.7294823026304152e-05,
+      "final_confirm_g_s": [
+        5.1193705231402264e-05,
+        5.112528316383383e-05
+      ],
+      "final_g_s": 5.1495027895418926e-05,
+      "initial_g_s": 0.00040621132946192044,
+      "last_g_s": 5.112528316383383e-05,
+      "reversals": 17,
+      "stop": "attempt_limit",
+      "target_g_s": 7.878985092172308e-05,
+      "within_tolerance": false,
+      "wl": 0
+    },
+    {
+      "session": "aa6c49fc-42b3-4f38-bb7c-8609c73452d5",
+      "path": "aa6c49fc-42b3-4f38-bb7c-8609c73452d5/load_000_programming.json",
+      "attempts": 31,
+      "bl": 8,
+      "confirmed": true,
+      "error_g_s": 6.963946208459242e-05,
+      "final_confirm_g_s": [
+        8.115776272686591e-06,
+        8.22364131653439e-06
+      ],
+      "final_g_s": 7.960924168865659e-05,
+      "initial_g_s": 0.00019610138085842866,
+      "last_g_s": 8.22364131653439e-06,
+      "reversals": 14,
+      "stop": "confirmed",
+      "target_g_s": 9.969779604064162e-06,
+      "within_tolerance": false,
+      "wl": 3
+    },
+    {
+      "session": "aa6c49fc-42b3-4f38-bb7c-8609c73452d5",
+      "path": "aa6c49fc-42b3-4f38-bb7c-8609c73452d5/load_000_programming.json",
+      "attempts": 14,
+      "bl": 15,
+      "confirmed": false,
+      "error_g_s": 0.00025594335677611225,
+      "final_confirm_g_s": [
+        0.00026548064223604664,
+        0.00026551378027949845
+      ],
+      "final_g_s": 0.0002659131363801764,
+      "initial_g_s": 0.0002655473883944207,
+      "last_g_s": 0.00026551378027949845,
+      "reversals": 0,
+      "stop": "no_response_at_maximum",
+      "target_g_s": 9.969779604064162e-06,
+      "within_tolerance": false,
+      "wl": 1
+    },
+    {
+      "session": "aa6c49fc-42b3-4f38-bb7c-8609c73452d5",
+      "path": "aa6c49fc-42b3-4f38-bb7c-8609c73452d5/load_000_programming.json",
+      "attempts": 14,
+      "bl": 0,
+      "confirmed": true,
+      "error_g_s": 2.7283808832567755e-05,
+      "final_confirm_g_s": [
+        1.2186091562215983e-05,
+        1.2186091562215983e-05
+      ],
+      "final_g_s": 3.725358843663192e-05,
+      "initial_g_s": 1.2175055264283842e-05,
+      "last_g_s": 1.2186091562215983e-05,
+      "reversals": 0,
+      "stop": "no_response_at_maximum",
+      "target_g_s": 9.969779604064162e-06,
+      "within_tolerance": false,
+      "wl": 5
+    },
+    {
+      "session": "aa6c49fc-42b3-4f38-bb7c-8609c73452d5",
+      "path": "aa6c49fc-42b3-4f38-bb7c-8609c73452d5/load_000_programming.json",
+      "attempts": 15,
+      "bl": 1,
+      "confirmed": true,
+      "error_g_s": 2.851679005210453e-06,
+      "final_confirm_g_s": [
+        1.2883205139737859e-05,
+        1.2894290998753723e-05
+      ],
+      "final_g_s": 1.3772502055223781e-05,
+      "initial_g_s": 1.3482979965326764e-05,
+      "last_g_s": 1.2894290998753723e-05,
+      "reversals": 0,
+      "stop": "no_response_at_maximum",
+      "target_g_s": 1.0920823050013328e-05,
+      "within_tolerance": false,
+      "wl": 5
+    },
+    {
+      "session": "aa6c49fc-42b3-4f38-bb7c-8609c73452d5",
+      "path": "aa6c49fc-42b3-4f38-bb7c-8609c73452d5/load_000_programming.json",
+      "attempts": 14,
+      "bl": 15,
+      "confirmed": true,
+      "error_g_s": 3.157528017423581e-06,
+      "final_confirm_g_s": [
+        1.2318657640254622e-05,
+        1.2329709315406477e-05
+      ],
+      "final_g_s": 1.3127307621487743e-05,
+      "initial_g_s": 1.2606235426601688e-05,
+      "last_g_s": 1.2329709315406477e-05,
+      "reversals": 0,
+      "stop": "no_response_at_maximum",
+      "target_g_s": 9.969779604064162e-06,
+      "within_tolerance": false,
+      "wl": 5
+    },
+    {
+      "session": "aa6c49fc-42b3-4f38-bb7c-8609c73452d5",
+      "path": "aa6c49fc-42b3-4f38-bb7c-8609c73452d5/load_000_programming.json",
+      "attempts": 33,
+      "bl": 14,
+      "confirmed": false,
+      "error_g_s": -1.998890451768107e-05,
+      "final_confirm_g_s": [
+        5.352065801866483e-05,
+        5.3451418246347787e-05
+      ],
+      "final_g_s": 5.3216144288124966e-05,
+      "initial_g_s": 1.3393991641861789e-05,
+      "last_g_s": 5.3451418246347787e-05,
+      "reversals": 0,
+      "stop": "no_response_at_maximum",
+      "target_g_s": 7.320504880580604e-05,
+      "within_tolerance": false,
+      "wl": 5
+    }
+  ],
+  "selection_mvm_failures": [
+    {
+      "session": "e39b8972-8199-4bbb-9a4c-7b95b21bd24d",
+      "path": "e39b8972-8199-4bbb-9a4c-7b95b21bd24d/load_000_operators.json",
+      "block": "N06",
+      "frozen_signed_adc": 20.166666666666664,
+      "heldout_error_adc": 4.816666666666665,
+      "heldout_limit_adc": 5.541666666666667,
+      "mask": 1,
+      "maximum_leg_drift_adc": 4.0,
+      "passed": false,
+      "resolved_legs": true,
+      "signed_drift_adc": 6.25,
+      "signed_sd_adc": 1.762012343884117
+    },
+    {
+      "session": "aa6c49fc-42b3-4f38-bb7c-8609c73452d5",
+      "path": "aa6c49fc-42b3-4f38-bb7c-8609c73452d5/load_000_attempt_0/load_000_operators.json",
+      "block": "N06",
+      "frozen_signed_adc": 20.041666666666664,
+      "heldout_error_adc": 2.1416666666666657,
+      "heldout_limit_adc": 5.429166666666667,
+      "mask": 1,
+      "maximum_leg_drift_adc": 4.5,
+      "passed": false,
+      "resolved_legs": true,
+      "signed_drift_adc": 7.25,
+      "signed_sd_adc": 2.236766639593858
+    },
+    {
+      "session": "aa6c49fc-42b3-4f38-bb7c-8609c73452d5",
+      "path": "aa6c49fc-42b3-4f38-bb7c-8609c73452d5/load_000_attempt_0/load_000_operators.json",
+      "block": "N09",
+      "frozen_signed_adc": 22.375,
+      "heldout_error_adc": 0.1750000000000007,
+      "heldout_limit_adc": 5.0,
+      "mask": 1,
+      "maximum_leg_drift_adc": 8,
+      "passed": false,
+      "resolved_legs": false,
+      "signed_drift_adc": 4.25,
+      "signed_sd_adc": 2.900161633426661
+    },
+    {
+      "session": "aa6c49fc-42b3-4f38-bb7c-8609c73452d5",
+      "path": "aa6c49fc-42b3-4f38-bb7c-8609c73452d5/load_000_attempt_1/load_000_operators.json",
+      "block": "N01",
+      "frozen_signed_adc": 0.9583333333333321,
+      "heldout_error_adc": 1.2916666666666679,
+      "heldout_limit_adc": 5.0,
+      "mask": 1,
+      "maximum_leg_drift_adc": 5.75,
+      "passed": false,
+      "resolved_legs": true,
+      "signed_drift_adc": 4.25,
+      "signed_sd_adc": 1.9465514377996795
+    },
+    {
+      "session": "aa6c49fc-42b3-4f38-bb7c-8609c73452d5",
+      "path": "aa6c49fc-42b3-4f38-bb7c-8609c73452d5/load_000_attempt_1/load_000_operators.json",
+      "block": "N06",
+      "frozen_signed_adc": 15.458333333333332,
+      "heldout_error_adc": 0.40833333333333144,
+      "heldout_limit_adc": 5.4541666666666675,
+      "mask": 1,
+      "maximum_leg_drift_adc": 4.25,
+      "passed": false,
+      "resolved_legs": true,
+      "signed_drift_adc": 5.75,
+      "signed_sd_adc": 3.57246413557925
+    },
+    {
+      "session": "aa6c49fc-42b3-4f38-bb7c-8609c73452d5",
+      "path": "aa6c49fc-42b3-4f38-bb7c-8609c73452d5/load_000_attempt_1/load_000_operators.json",
+      "block": "N08",
+      "frozen_signed_adc": 11.624999999999998,
+      "heldout_error_adc": 0.6749999999999989,
+      "heldout_limit_adc": 5.0,
+      "mask": 1,
+      "maximum_leg_drift_adc": 5.75,
+      "passed": false,
+      "resolved_legs": true,
+      "signed_drift_adc": 5.5,
+      "signed_sd_adc": 1.867903236251814
+    }
+  ],
+  "comparison": {
+    "date": "2026-10-23",
+    "status": "completed",
+    "dataset": "MNIST",
+    "physical_cells": 24,
+    "differential_pairs": 12,
+    "blocks": 10,
+    "logical_coefficients": 1600,
+    "loads": 134,
+    "test_images": 10000,
+    "strict_hardware_minus_simulator_percentage_points": -1.04,
+    "identical_protocol": true,
+    "identical_declared_source_hashes": true,
+    "map_sha256": "f814f5526be04f09bc89c66c4d0ab24b9bbd604f51a9dcbba4cd406bd7ab96c9",
+    "model_asset_sha256": {
+      "experiments/mnist_tiled_transfer_20261022/assets/input_masks.npy": "8b90c47889bd1b577ba766375dda3e1fd2a691614844440bda0cadd76531afb8",
+      "experiments/mnist_tiled_transfer_20261022/assets/learned_conductances.json": "0fd5729f33b833827ba6fc1522ea5c176739128ce8cbb50bc36b1032ea3a85a8",
+      "experiments/mnist_tiled_transfer_20261022/assets/readout.pt": "de314d03a5a1d47b9fc99e4533a143dd81683b911dfda38e89677c9731faca00",
+      "experiments/mnist_tiled_transfer_20261022/assets/scaler.pt": "7dff3c26cdcee948ff5b820e0505b27dfaa8ebb62299afdd34f289e756e3af07"
+    },
+    "training_source_session": "cdf8b7d9-c951-4f29-8871-da09ca05d8d5",
+    "new_stdp_training": false,
+    "live_hardware_per_image": false,
+    "physical_lif": false,
+    "execution": "Frozen measured partial MVM operators; digital sum, CPU LIF and frozen CPU head/scaler.",
+    "limitations": [
+      "One acquisition per backend; no estimate of between-run variability.",
+      "Identical recorded source hashes do not independently verify private runtime bytes.",
+      "Conductance target misses count cell-loads, not unique physical cells.",
+      "No claim that conductance errors alone caused the accuracy difference.",
+      "Unresolved binary patterns are diagnostic counts, not excluded weights or failed loads."
+    ],
+    "evidence": {
+      "hardware": {
+        "acquisition_session": "4d2dfee0-3106-40de-9ad8-3d8542bef989",
+        "evaluation_session": "d51aa091-91f8-4089-8767-1d91b82a9c14",
+        "acquisition_manifest_sha256": "885e36eb2dd7a1b48c55633efc7031fa72f131a3ec28b7d6e9c85f28e2d6e53d",
+        "acquisition_receipt": "results/mnist_tiled_transfer_20261022/archives/4d2dfee0-3106-40de-9ad8-3d8542bef989.json",
+        "evaluation_receipt": "results/mnist_tiled_transfer_20261022/archives/d51aa091-91f8-4089-8767-1d91b82a9c14.json",
+        "acquisition": {
+          "accuracy": null,
+          "completed_loads": 134,
+          "elapsed_seconds": 2600.719299102,
+          "error": null,
+          "impacts": 623498,
+          "inference": "measured frozen partial MVM LUT + digital sum + CPU LIF + frozen CPU head",
+          "logical_coefficients": 1600,
+          "physical_cells": 24,
+          "pilot": false,
+          "planned_loads": 134,
+          "programmed_cell_loads": 3200,
+          "programming_errors_replaced_by_ideal_weights": false,
+          "pulses": 33046,
+          "read_only_parent": null,
+          "retried_loads": 1,
+          "scope": "acquisition_only_accuracy_pending",
+          "session_id": "4d2dfee0-3106-40de-9ad8-3d8542bef989",
+          "source": "hardware",
+          "status": "completed",
+          "target_misses": 828,
+          "target_tolerance_s": 2.560355420368765e-06,
+          "unresolved_binary_patterns": 1775,
+          "unresolved_does_not_mean_informative": true
+        },
+        "evaluation": {
+          "accuracy": {
+            "conditional_accuracy": 0.6449289857971594,
+            "conventional_argmax_accuracy": 0.645,
+            "coverage": 0.9998,
+            "execution": "frozen measured partial MVM operators; CPU LIF and frozen CPU head",
+            "live_hardware_per_image": false,
+            "new_readout": false,
+            "original_6965_reproduction_claim": false,
+            "physical_hardware": true,
+            "silent": 2,
+            "strict_accuracy": 0.6448,
+            "strict_correct": 6448,
+            "test_feature_nonzero": 54713338,
+            "test_images": 10000,
+            "test_labels_used_for_selection": false,
+            "test_spikes": 71674101,
+            "tied": 0,
+            "wilson95_argmax": [
+              0.6355672670124634,
+              0.6543213734600405
+            ],
+            "wilson95_strict": [
+              0.6353661575870289,
+              0.6541226364848232
+            ]
+          },
+          "acquisition_session": "4d2dfee0-3106-40de-9ad8-3d8542bef989",
+          "elapsed_seconds": 394.01599999994505,
+          "error": null,
+          "scope": "CPU inference from frozen acquired operators",
+          "session_id": "d51aa091-91f8-4089-8767-1d91b82a9c14",
+          "source": "hardware",
+          "status": "completed"
+        }
+      },
+      "simulator": {
+        "acquisition_session": "673b05ce-6b5d-475f-b1b5-87f49f9f1e68",
+        "evaluation_session": "7c99d7c6-f345-4fea-a36f-e00eefd307b7",
+        "acquisition_manifest_sha256": "e3760383b2fe41a9065e034579be8fd3615afe9a825d81aed0e58a30191e87d7",
+        "acquisition_receipt": "results/mnist_tiled_transfer_20261022/archives/673b05ce-6b5d-475f-b1b5-87f49f9f1e68.json",
+        "evaluation_receipt": "results/mnist_tiled_transfer_20261022/archives/7c99d7c6-f345-4fea-a36f-e00eefd307b7.json",
+        "acquisition": {
+          "accuracy": null,
+          "completed_loads": 134,
+          "elapsed_seconds": 1291.8129999999655,
+          "error": null,
+          "impacts": 632327,
+          "inference": "measured frozen partial MVM LUT + digital sum + CPU LIF + frozen CPU head",
+          "logical_coefficients": 1600,
+          "physical_cells": 24,
+          "pilot": false,
+          "planned_loads": 134,
+          "programmed_cell_loads": 3200,
+          "programming_errors_replaced_by_ideal_weights": false,
+          "pulses": 34349,
+          "read_only_parent": null,
+          "retried_loads": 0,
+          "scope": "acquisition_only_accuracy_pending",
+          "session_id": "673b05ce-6b5d-475f-b1b5-87f49f9f1e68",
+          "source": "simulator",
+          "status": "completed",
+          "target_misses": 14,
+          "target_tolerance_s": 2.560355420368765e-06,
+          "unresolved_binary_patterns": 1875,
+          "unresolved_does_not_mean_informative": true
+        },
+        "evaluation": {
+          "accuracy": {
+            "conditional_accuracy": 0.6553310662132427,
+            "conventional_argmax_accuracy": 0.6554,
+            "coverage": 0.9998,
+            "execution": "frozen measured partial MVM operators; CPU LIF and frozen CPU head",
+            "live_hardware_per_image": false,
+            "new_readout": false,
+            "original_6965_reproduction_claim": false,
+            "physical_hardware": false,
+            "silent": 2,
+            "strict_accuracy": 0.6552,
+            "strict_correct": 6552,
+            "test_feature_nonzero": 40895279,
+            "test_images": 10000,
+            "test_labels_used_for_selection": false,
+            "test_spikes": 49434417,
+            "tied": 0,
+            "wilson95_argmax": [
+              0.6460274369038087,
+              0.664653216402585
+            ],
+            "wilson95_strict": [
+              0.6458262335863098,
+              0.6644545733194321
+            ]
+          },
+          "acquisition_session": "673b05ce-6b5d-475f-b1b5-87f49f9f1e68",
+          "elapsed_seconds": 479.5779999999795,
+          "error": null,
+          "scope": "CPU inference from frozen acquired operators",
+          "session_id": "7c99d7c6-f345-4fea-a36f-e00eefd307b7",
+          "source": "simulator",
+          "status": "completed"
+        }
+      }
+    }
+  },
+  "paper_preparation": {
+    "date": "2026-11-07",
+    "new_hardware_runs": false,
+    "sole_author": true,
+    "source_report": "reports/2026-10-25/mnist-experiment-report"
+  }
+}
